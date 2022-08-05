@@ -219,7 +219,7 @@ select {
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 780px) {
   .span_2_of_2 {
     width: 100%;
   }
