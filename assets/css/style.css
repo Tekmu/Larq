@@ -228,6 +228,7 @@ h2 {
   color: #555;
   font-weight: 300;
   margin-bottom: 30px;
+  line-height: 1.5;
 }
 
 .section-sub-heading:after {
@@ -324,4 +325,16 @@ h2 {
   color: #143752;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+/*** PARTNERS SECTION ***/
+.partners-section {
+  text-align: center;
+}
+
+.partner-logo {
+  width: 65%;
+  height: auto;
+  border-radius: 10%;
+  background-color: #143752;
 }
