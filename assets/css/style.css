@@ -11,6 +11,7 @@ body {
   background-color: #fff;
   color: #000;
   text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
 }
 
 .row {
@@ -70,7 +71,7 @@ h2 {
 .scroll-down::before,
 .scroll-down::after {
   content: "";
-  top: 20%;
+  top: 10%;
   position: absolute;
   left: 50%;
   border: 2px solid rgb(245, 237, 237);
@@ -83,7 +84,7 @@ h2 {
 }
 
 .scroll-down::after {
-  top: 30%;
+  top: 20%;
   animation-delay: 0.3s;
 }
 
